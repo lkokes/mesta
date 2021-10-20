@@ -26,5 +26,21 @@ setInterval(function(){
     nazovMesta.text(mesta[poradie][1]);
     nazovPamiatky.text(mesta[poradie][2]);
     i++
-},4000);
+},14000);
 
+var clock = setInterval(
+    function time(){
+        var date_now = new Date();
+        var hr = date_now.getHours();
+        var min = date_now.getMinutes();
+
+        if (hr < 10){
+            hr = "0" + hr;
+        }
+        if (min < 10){
+            min = "0" + min;
+        }
+
+        hour.textContent = hr;
+        minute.textContent = min;
+    },1000);
