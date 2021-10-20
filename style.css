@@ -21,3 +21,23 @@ p {
   font-size: 55px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+
+#nazov-mesta {
+  font-size: 3em;
+  text-shadow: 2px 1px 3px #000, -1px -1px 3px #fff, 1px 1px #a9a6a6,
+    -1px -1px #fff;
+  color: #ddcca3;
+  padding: 20px;
+}
+
+#pamiatka {
+  position: absolute;
+  top: 89%;
+  left: 60%;
+  font-size: 3em;
+  text-shadow: 2px 1px 3px #000, -1px -1px 3px #fff, 1px 1px #a9a6a6,
+    -1px -1px #fff;
+  color: #ddcca3;
+  width: 38%;
+  text-align: right;
+}
